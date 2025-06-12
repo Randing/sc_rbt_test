@@ -1,0 +1,17 @@
+# See http://www.robotstxt.org/robotstxt.html for documentation on how to use the robots.txt file
+#
+# To ban all spiders from the entire site uncomment the next two lines:
+
+User-agent: Anthill
+Disallow: /
+
+User-agent: *
+Disallow: /lp
+Disallow: /form_lp
+Disallow: /admin
+Disallow: /frends
+Disallow: /frends/
+Disallow: /test/part/wp-content/themes/
+Disallow: /test/part/wp-content/uploads/assets/
+Sitemap: https://test.jp/test/part/wp-sitemap-tests-test-1.xml
+Sitemap: https://test.jp/sitemap/sitemap1
